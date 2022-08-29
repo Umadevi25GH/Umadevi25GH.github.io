@@ -65,9 +65,6 @@ body{
     flex-direction: row;
 }
 
-/* .container h1{
-    margin-top: 200px;
-} */
 
 .container .about1{
     margin-top: 200px;
@@ -91,13 +88,13 @@ body{
 }
 
 
-.landing-text-container, .landing-img-container{
-    /* border: 1px solid #ffffff !important; */
-    padding: 100px 2px 100px 3px;
+.landing-text-container{
+    padding: 100px 5px 100px 3px;
     width: 50%;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-size: x-large;
+
 }
 .landing-img-container{
     width: 45%;
@@ -132,29 +129,29 @@ body{
     display: inline-block;
 }
 
-.landing-text-container h1{
+/* .landing-text-container h1{
     font-size: 50px;
     margin-bottom: 10px;
-}
-.landing-text-container span{
+} */
+/* .landing-text-container span{
     color: aqua;
-}
-
-
-
+} */
 
 .project-container{
     border: 1px solid #ffffff !important;
     border-radius: 8px;
     width: 33.33%;
 }
-.container .soc-med-icon{
-  width: max-content;
+.landing-text-container .container{
+    width: max-content;
+    left: 40%;
+    display: inline-block;
 }
-.bi-x-lg{
-    color: #ffffff;
+/* .bi-x-lg{
+    color: #c00909;
     border: none;
-}
+} */
+
 .btn{
     color: #ffffff;
     display: inline-block;
@@ -193,11 +190,32 @@ body{
 }
 
 .bi-linkedin, .bi-github, .bi-diamond, .bi-file-earmark-arrow-down{
-  color: #ffffff;
+    color: #ffffff;
+    
 }
 
 .contact-container{
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contact-container h3{
+    font-size:xx-large;
+}
+
+.container h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #adf1b8;
+}
+
+.contact-container h3{
+    font-size:xx-large;
+    color: black;
+    font-weight: bold;
+    background-color:#adf1b8;
 }
 
 a{
@@ -231,9 +249,6 @@ a{
 }
 
 /*Image slider for projects see more end*/
-
-
-
 
 
 /*New Side bar navigation start*/
@@ -270,6 +285,11 @@ li{
     opacity: 80%;
 }
 /*New Side bar navigation end*/
+
+.white-text{
+    font-size:large;
+}
+
 
 footer{
     position: fixed;
