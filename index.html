@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="/css/uma-portfolio.css"/>
   </head>
   
@@ -118,8 +119,7 @@
 
             <!--gitlab start-->
             <button type="button" class="btn gitlab-btn" id="btn-gitlab" title="Gitlab">
-                <i class="bi bi-diamond"></i>
-                <!-- <i class="fa fa-gitlab"></i> -->
+                <i class="fab fa-gitlab"></i>
             </button> 
               <!--gitlab end-->
 
@@ -127,17 +127,17 @@
             <!--dl resume start-->
             <button type="button" class="btn resume-btn" id="btn-resume">
               <i class="bi bi-file-earmark-arrow-down"></i>
-              <!-- <span class="dl-resume-text">Download my resume</span> -->
               <a class="downloadcv" href="/CV_UMADEVI_.pdf" download="uma-cv"> Download My CV </a>
             </button>
             <!--dl resume end-->
+            
 
           </div>
         <!--soc med end-->
         
       </div>
       <!--homepage text end-->
-
+      
       <!--img start-->
       <div class="landing-img-container px-3 py-3 text-center">
         <img class="img-fluid2" src="/images/bg_girl.png">
@@ -576,18 +576,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
     <script type="text/javascript">
-      document.getElementById("btn-linkedin").onclick = function () {
-          location.href = "https://www.linkedin.com/in/umadevi-sundararajan/";
-      };
+    document.getElementById('btn-linkedin').onclick = function () {
+        location.href = "https://www.linkedin.com/in/umadevi-sundararajan/";
+    };
 
-      document.getElementById("btn-github").onclick = function () {
-          location.href = "https://github.com/Umadevi25GH";
-      };
+    document.getElementById('btn-github').onclick = function () {
+        location.href = "https://github.com/Umadevi25GH";
+    };
 
-      document.getElementById("btn-gitlab").onclick = function () {
-          location.href = "https://gitlab.com/Umadevi25";
-      };
-      
+    document.getElementById('btn-gitlab').onclick = function () {
+        location.href = "https://gitlab.com/Umadevi25";
+    };
+
+     
     //   typewritter animation for the name
       var typed = new Typed(".typing", {
         strings: ["Umadevi", "Developer"],

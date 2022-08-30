@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Updock&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
-/*
-#ffffff
-light green: #ADF1B8
-plum-ish?: #735172
-blue medium: #4A41CE
-black-ish: #352F44
-*/
+
 :root{
     --header-height: 3rem;
     --nav-width: 68px;
@@ -129,14 +123,6 @@ body{
     display: inline-block;
 }
 
-/* .landing-text-container h1{
-    font-size: 50px;
-    margin-bottom: 10px;
-} */
-/* .landing-text-container span{
-    color: aqua;
-} */
-
 .project-container{
     border: 1px solid #ffffff !important;
     border-radius: 8px;
@@ -147,10 +133,7 @@ body{
     left: 40%;
     display: inline-block;
 }
-/* .bi-x-lg{
-    color: #c00909;
-    border: none;
-} */
+
 
 .btn{
     color: #ffffff;
@@ -189,7 +172,7 @@ body{
   font-size: 14px;
 }
 
-.bi-linkedin, .bi-github, .bi-diamond, .bi-file-earmark-arrow-down{
+.bi-linkedin, .bi-github, .bi-diamond, .bi-file-earmark-arrow-down, .fa-gitlab{
     color: #ffffff;
     
 }
@@ -369,12 +352,11 @@ footer{
         flex-direction: column;
     }
     .landing-text-container, .landing-img-container{
-        /* border: 1px solid #ffffff !important; */
+        
         width: 100%;
     }
     .project-container{
-        /* border: 1px solid #ffffff !important; */
-        /* border-radius: 8px; */
+        
         width: 100%;
     }
 }
